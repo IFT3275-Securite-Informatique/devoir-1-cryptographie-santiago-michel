@@ -655,7 +655,7 @@ def remplacer_8bits_par_texte(code, espace_sequence, e_sequence):
     if espace_sequence:
         code_decoded = code_decoded.replace(espace_sequence, ' ')
     if e_sequence:
-        code_decoded = code_decoded.replace(e_sequence, 'e')
+        code_decoded = code_decoded.replace(e_sequence, 's')
     
     return code_decoded
 
